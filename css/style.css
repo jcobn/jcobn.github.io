@@ -1,0 +1,38 @@
+head,
+html {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+html,
+body {
+  background: #181818;
+  color: #fff;
+  font-weight: normal;
+  margin: 0;
+}
+
+.main {
+  margin: auto;
+  width: 50%;
+  border: 5px solid rgb(52, 53, 52);
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+  position: relative;
+  height: 100px;
+  margin-top: -200px;
+  min-height: 50px;
+  background: rgb(29, 29, 29);
+  margin-top: auto;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
