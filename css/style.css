@@ -1,10 +1,6 @@
-head,
-html {
-  font-family: "Ubuntu Mono", monospace;
-}
-
 html,
 body {
+  font-family: "Ubuntu Mono", monospace;
   background-image: url("../images/github_pfp_bg.png");
   /*background: #181818;*/
   color: #fff;
@@ -23,6 +19,7 @@ body {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: 5%;
+  max-width: 600px;
   width: 50%;
   border: 5px solid rgb(52, 53, 52);
   padding: 10px;
