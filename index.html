@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
     <!-- Favicon -->
 
     <!-- Emed -->
@@ -21,12 +22,39 @@
     <title>jacobdev.tk</title>
   </head>
   <body>
-    <div class="main">
-      <h1>Hello world!</h1>
-      <p>My name is Jacob and this is my website!</p>
+    <div class="content">
+      <div class="topnav">
+        <a href="#">Home</a>
+        <a href="https://link.jacobdev.tk/git">GitHub</a>
+        <a href="projects/">Projects</a>
+        <a href="https://link.jacobdev.tk/discord">Discord</a>
+      </div>
+      <div class="main">
+        <h1>Hello World!<span id="underscore">_</span></h1>
+        <p>
+          My name's <span class="rainbow-text">Jacob</span> and this is my first
+          website
+        </p>
+        <p>My Discord is Kubajsa#0843</p>
+        <p>
+          Follow me on
+          <a id="github-a" href="https://link.jacobdev.tk/git">GitHub</a>
+        </p>
+      </div>
     </div>
-    <footer>
-      <p>&copy; Kubajsa 2021</p>
+    <footer class="footer">
+      <a href="https://link.jacobdev.tk/discord" class="dc_link"
+        >MY DISCORD SERVER</a
+      >
+      <div class="box-container">
+        <p>
+          &copy; 2021 -
+          <script>
+            writeCurrentYear();
+          </script>
+          Kubajsa
+        </p>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,69 @@
+html,
+body {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: black;
+  color: aliceblue;
+  height: 95%;
+  margin: 0;
+}
+
+.box-container {
+  border-radius: 10x;
+  margin-bottom: 2.5em;
+  padding: 1px;
+  position: relative;
+}
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+.project {
+  color: rgb(255, 0, 76);
+  text-decoration: none;
+}
+
+.language {
+  color: yellow;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(29, 29, 29);
+  font-size: 25px;
+  background-color: rgba(24, 24, 24, 0.384);
+  text-align: center;
+}
+
+.topnav {
+  background-color: rgb(17, 17, 17);
+  overflow: hidden;
+  padding: 15px;
+}
+.topnav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+  font-size: 15px;
+  float: left;
+}
+.topnav a:hover {
+  background-color: rgba(240, 248, 255, 0.342);
+  color: #000000;
+}
+
+.footer {
+  text-align: center;
+  height: 50px;
+  background-color: black;
+}
+
+.dc_link {
+  color: #7f8c8d;
+  text-decoration: none;
+}
