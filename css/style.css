@@ -27,6 +27,11 @@ body {
   margin: 0 auto -50px;
 }
 
+#github-a {
+  color: yellow;
+  text-decoration: none;
+}
+
 .main {
   position: absolute;
   top: 50%;
