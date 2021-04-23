@@ -2,7 +2,49 @@ html,
 body {
   font-family: "Ubuntu Mono", monospace;
   background-image: url("../images/github_pfp_bg.png");
-  /*background: #181818;*/
+  color: aliceblue;
+  height: 100%;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  height: 50px;
+  background-color: black;
+}
+
+.dc_link {
+  color: #7f8c8d;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(29, 29, 29);
+  font-size: 20px;
+  background-color: rgba(24, 24, 24, 0.267);
+}
+
+.box-container {
+  border-radius: 10x;
+  margin-bottom: 2.5em;
+  padding: 1px;
+  position: relative;
+}
+/*html,
+body {
+  font-family: "Ubuntu Mono", monospace;
+  background-image: url("../images/github_pfp_bg.png");
+  background: #181818;
   color: #fff;
   font-weight: normal;
   margin: 0;
@@ -43,3 +85,4 @@ body {
   display: flex;
   flex-direction: column;
 }
+*/
